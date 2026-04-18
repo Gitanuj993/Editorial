@@ -1,7 +1,7 @@
 # Editorial 
 <p>
-This repo woukd consist of editorial and tracks of activities,
-such as of Hackerrank, Leetcode, Codechef, Codefoce, projects and project ideas 
+This repo would consist of editorials and tracks of activities of 
+Hackerrank, Leetcode, Codechef, Codefoce, projects and project ideas 
 each one has its own value and detailing</p>
 
 
