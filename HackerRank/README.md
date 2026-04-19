@@ -9,3 +9,7 @@ when did AT open it for how much time !
 1. info will be seperated
 2. time and track details in seperate space
 3. problems and solution and interpretation
+
+
+
+## Documentation to use HackerRank ! 
