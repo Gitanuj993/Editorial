@@ -57,7 +57,7 @@ or Simple search for CMD in apps
 
 
 
-#### Now what yoy  see 
+#### Now what you  see 
 `` >>> Hello ``
 
 > Ask what you want , Wait for Response 
