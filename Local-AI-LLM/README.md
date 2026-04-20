@@ -2,7 +2,7 @@
 
 
 ### Install ollama 
-> Visit ``https:ollama.com``
+> Visit ``https://ollama.com``
 
 1. Copy command `` irm https://ollama.com/install.ps1 | iex ``
 if you connection is fast and stable, 
@@ -82,5 +82,5 @@ or Simple search for CMD in apps
 2. `` ollama rm model_name ``
 > Model will ve removed 
 3. Step 3: Verify it’s gone
-> ``  ollama list ''
+> ``  ollama list ``
 
