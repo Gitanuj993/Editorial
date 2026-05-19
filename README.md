@@ -1,12 +1,12 @@
 # Editorial 
 <p>
 This repo would consist of editorials and tracks of activities of 
-1. Hackerrank <br>
-2. Leetcode <br>
-3. Codechef <br>
-4. Codefoce <br>
-5. projects <br>
-project ideas 
+1. Competitve programming
+2. ideas
+3. learn
+4. projects
+5. Qans
+6. College
 each one has its own value and detailing</p>
 
 <3> We are adding suplliments to this Editorial , to make this effective and powerfull. <br>
