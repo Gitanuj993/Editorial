@@ -23,5 +23,6 @@ case : we need to remove files from the last commit, keep file locally but remov
 command is : `` git reset --soft HEAD~1 `` by this files are removed from the commits and moved to the stage like `` git add . ``
 <br> Now you can use conditon 1  commands
 
+4. i need someone to review my commits and PR , i need a agent or bot ?
  
 
