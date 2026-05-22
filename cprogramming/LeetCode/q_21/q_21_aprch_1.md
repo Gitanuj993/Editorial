@@ -26,6 +26,14 @@ for More illustration,
 	- what to do if second list becomes None
 	- exit the looop when both the list becomes None
 
+# My Mistakes while Solving it
+1. logic Error : write 'or' instead of 'and' , which causes
+list 2 added at the end. , This issue in the implementation code not pseudo code
+2. logic Error : wrote '>' instead of '<' which cause the greater elements added at first or simply
+arranging element into descending order. <br>
+This error is in pseudo code , solved in implementation testing.
+
+
 
 # Here is the Sample code to learn and implement 
 ```
@@ -127,3 +135,48 @@ print(' result is : ' , end = "")
 show_list(result)
 
 ```
+
+
+
+# LeetCode Solution 
+'''
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        # when first list is None and Another list is not None
+        if ( (list1 == None ) and  ( (list2 != None)) ) :
+            return  list2
+        elif ( (list1 != None ) and  (list2 == None)) :
+            return list1
+        elif ( ( list1 is None) and (list2 is None)) :
+            return None
+        # merge_sort
+        head = ListNode() 
+        # temp 
+        temp = head
+
+        # merging list
+        while ( list1 is not None) or ( list2 is not None) :
+            # when any of the list becomes None
+            if ( list1 is not None) and ( list2 is None) :
+                val = list1.val
+                list1 = list1.next
+            elif ( list1 is None) and ( list2 is not None) :
+                val = list2.val
+                list2 = list2.next
+            else :
+                if (list1.val <= list2.val) :
+                    val = list1.val
+                    list1 = list1.next
+                else :
+                    val = list2.val
+                    list2 = list2.next
+            temp.next = ListNode(val)
+            temp = temp.next
+        return head.next
+        
+'''
