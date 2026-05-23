@@ -1,13 +1,13 @@
 
-# Leetcode Qeustion 21 , Merge two sorted linked lists : approach_2
+# Leetcode Question 21 , Merge two sorted linked lists : approach_2
 
 ## Question :
-Our tasks is to merge two sorted Linked list , for illustration  <br>
-say `` list1 is 1 -> 3 -> 4 -> None `` and `` list is : 1 -> 2 -> 4 -> None ``
-then Merged linked list is : `` 1 -> 1 -> 2 -> 3 -> 4 -> 4 -> None ``
+ Task is to merge two sorted Linked list , for illustration  <br>
+say `` list1 is 1 -> 3 -> 4 -> None `` and `` list2 is : 1 -> 2 -> 4 -> None `` <br>
+then Merged linked list would be : `` 1 -> 1 -> 2 -> 3 -> 4 -> 4 -> None ``
 
 
-## Intutions
+## Central Idea 
 We will traverse and compare each linked list and compare the elements of both the  lists,
 smaller element wil be added first in the merged_list. 
 
@@ -17,7 +17,7 @@ Instead of creating New node each time , we reused reference of the previous nod
 
 ### key changes.
 1. renamed 'val' to 'node'
-2. changed literal of 'val' from ``list1.val'' to `` list1`` everywhere.
+2. changed literal of 'val' from ``list1.val `` to `` list1`` everywhere.
 
 
 
