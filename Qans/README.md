@@ -24,5 +24,10 @@ command is : `` git reset --soft HEAD~1 `` by this files are removed from the co
 <br> Now you can use conditon 1  commands
 
 4. i need someone to review my commits and PR , i need a agent or bot ?
- 
+ans : code rabbit ai.
 
+5. raised a PR i coderabbit.ai find gramatical mistakes.
+now how can i change the code present in the pr,
+is from codebase, command line or code editor from where changes are made.
+ans : go to code review option , searched for edit file , changes and commit file, raise 
+PR raised, merged , existing PR get updated then Merged sucessfully.
