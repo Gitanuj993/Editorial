@@ -1,12 +1,12 @@
-# Leetcode Qeustion 21 , Merge two sorted linked lists.
+# Leetcode Question 21 , Merge two sorted linked lists.
 
 ## Question :
-Our tasks is to merge two sorted Linked list , for illustration  <br>
-say `` list1 is 1 -> 3 -> 4 -> None `` and `` list is : 1 -> 2 -> 4 -> None `` <br>
+Task is to merge two sorted Linked list , for illustration  <br>
+say `` list1 is 1 -> 3 -> 4 -> None `` and `` list2 is : 1 -> 2 -> 4 -> None `` <br>
 then Merged linked list is : `` 1 -> 1 -> 2 -> 3 -> 4 -> 4 -> None ``
 
 
-## Intutions 
+## Central Idea 
 We will traverse and compare each linked list and compare the elements of both the  lists,
 smaller element wil be added first in the merged_list.
 
@@ -183,10 +183,9 @@ class Solution:
 
 ## ADA : Analysis & Desgn of Algorithm.
 1. Time Complexity : O(n) or O(m+n)
-2. Space Complexity : O(1)
+2. Space Complexity : O(n)
 
 ## Trade-offs
-1. We are re using nodes thus previous lists will be empty.
-or previous lists actually merged into a single list.
-2. we can not undo this process.
+1. Not used existing nodes, each time we are creating a new node.
+2. List1 and List2 remained unchanged.
 
