@@ -43,22 +43,20 @@ print(" max capacity is :	" , res )
 
 ```		
 > [!note]
-> Time Complexity : O(n^2)
-> Space Complexity : O(1)
+> Time Complexity : O(n^2) <br>
+> Space Complexity : O(1) <br>
 > Leetcode :  rejected , Time bound error 
 
 
 ### Qans
-1. Why Time complexity is O(n^2) ?
+1. Why Time complexity is O(n^2) ? <br>
 ans : Time Complexity is O( n^2) because we are taking one element from the array and compare it with the
 rest elements , then take another element from the array and compare it with the rest of the elemenst.
-
 traversing array for taking one element at a time , which gives O(n) and then using this element to compare rest elements
 of the array which including traversing the array again which gives O(n^2).
 We are traversing the array two times concurrenlty. thus overalll timecomplexity becomes O(n^2).
 
-
-2. Why Space Complexity is O(1) ?
+2. Why Space Complexity is O(1) ? <br>
 ans : Space complexity is O(1) becouse number of variables used to store results and for flags/signals are constants.
 which do not grow with number of inputs ( say number of elements present in the array ).
 
@@ -101,17 +99,13 @@ print(" max capacity is :	" , res )
 
 ```		
 > [!note]
-> Time Complexity : O(n) 
-> Space Complexity : O(1)
+> Time Complexity : O(n) <br>
+> Space Complexity : O(1) <br>
 > Leetcode : Accept 
 
 
 ### Qans 
-1. Why time complexity is O(n) 
+1. Why time complexity is O(n)  <br>
 ans : Time complexity is O(n) becouse we are checking and moving pointers linearly as
 we are moving pointers in either left side or in right side. 
 pointers movement depends on size of the array.
-
-
-
-
