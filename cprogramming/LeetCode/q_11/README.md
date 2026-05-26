@@ -23,7 +23,7 @@ and if the area is greater than Max_area then store the value of area in math_ar
 4. repeat step 2, untill all the pipes are compared.
 5. return the max_area
 
-```
+```python
 # program to calculate max
 class Solution :
 	def max_water(self,list1) :
@@ -74,10 +74,10 @@ from this two pointers we will calculate the area and compare it with the max_ar
 2. take two pointers one from start and another from end.
 3. calculate area and compare it with the max_area , if the area > max_area , put values of area into max_area.
 4. if the left pointer > right pointer then move the left pointer to right side or else move right pointer to left side.
-5. repeat steps 3 and 4 untill left pointer > right pointer.
+5. repeat steps 3 and 4 untill left pointer >= right pointer.
 6. return the max_area.
 
-```
+```python
 # program to calculate max
 class Solution :
 	def max_water(self,list1) :
@@ -91,7 +91,7 @@ class Solution :
 				if list1[left] < list1[right] :
 					left +=1
 				else :
-					right += 1
+					right -= 1
 				
 		return max_
 s = Solution()
