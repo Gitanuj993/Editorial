@@ -1,7 +1,5 @@
 # Questions ⁉️ 
-
-
-
+" In this field i talked about problems that i encounterd during development "
 ## Related to the git and github
 1. a branch is created on the remote repository and i want to pull this brach to my local repository.
 ans : We can see branches present on the remote repo using ``git branch -r `` to update this info in your local repo
@@ -30,4 +28,12 @@ ans : Coderabbit ai.
 how can i now change the code present in the pr,
 should i do from codebase, command line or code editor from where changes are made.
 ans : go to code review option , searched for edit file , changes and commit file, raise 
+<<<<<<< Updated upstream
 PR raised, merged , existing PR get updated then Merged successfully.
+=======
+PR raised, merged , existing PR get updated then Merged sucessfully.
+
+6. I do not want to pull whole repo , as main repo has huge size 
+and my local machine can not handle this size but i want to work.
+i want to pull logs and commits, but don't want actuall code in my local machine
+>>>>>>> Stashed changes
