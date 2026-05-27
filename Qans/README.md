@@ -36,4 +36,7 @@ PR raised, merged , existing PR get updated then Merged sucessfully.
 6. I do not want to pull whole repo , as main repo has huge size 
 and my local machine can not handle this size but i want to work.
 i want to pull logs and commits, but don't want actuall code in my local machine
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
