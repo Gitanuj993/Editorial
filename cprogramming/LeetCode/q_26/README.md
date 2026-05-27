@@ -18,7 +18,7 @@ thus return lenght of sorted array : 5 ; '_' referes to absence of value.
 
 ### Approach_1 : 
 
-```pycon
+```python
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         #result = []
@@ -40,7 +40,7 @@ class Solution:
 ```
 ## Approach_2 
 
-```pycon
+```python
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         #result = []
@@ -68,7 +68,7 @@ class Solution:
 ```
 # Approach_3
 
-```pycon
+```python
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         #result = []
