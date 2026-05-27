@@ -10,7 +10,8 @@ thus return lenght of sorted array : 5 ; '_' referes to absence of value.
 
 ## Approaches !
 1. 
-
+2.
+3.
 
 
 
