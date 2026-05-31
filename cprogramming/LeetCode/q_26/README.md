@@ -12,7 +12,7 @@ thus return lenght of sorted array : 5 ; '_' referes to absence of value.
 1. 
 2.
 3.
-
+4.
 
 
 
@@ -88,4 +88,22 @@ class Solution:
             
             
         return max_len
+```
+
+
+## Approach_4 : ++ O(n) 
+```
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        # k pointer specify length of sorted array
+        k = 1 
+
+        for i in range(1,len(nums)) :
+
+            if nums[i] != nums[i-1] :                
+                nums[k] = nums[i]
+                k += 1
+            i += 1
+                    
+        return k
 ```
