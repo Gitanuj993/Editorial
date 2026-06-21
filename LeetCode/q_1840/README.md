@@ -49,9 +49,8 @@ class Solution :
 		R.append([1,0])
 		# Sorting the Restrictions
 		R.sort() # R.sort(key=lambda : x[0])
-		# We check whether the last building present in R or not
-		if R[-1][0] != n :
-			R.append([n,n-1])
+		# Always clamp the right boundary to the legal maximum.
+		R.append([n, n - 1])
 		# length of R
 		m = len(R)
 		# we will check the heights of buildings from left 
