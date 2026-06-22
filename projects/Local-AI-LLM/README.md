@@ -1,4 +1,4 @@
-# Run LLM Model Locally
+# How to Run LLM Model Locally
 
 
 ### Install ollama 
