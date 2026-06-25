@@ -17,9 +17,9 @@ Here we talk about ongoing and future ideas, projects, learnings and documentati
 ## List of things this Editotial has :
 1. Competitive Programming
 2. Projects Startings
-3. ideas discussed , which further expanded to a front-end   website which contains ideas and take contributions.
-4. skills that i am learning. It includes what i learned or practiced. ADA, COA , SE ,Operating System.
-5. Questions and Anwer that i head in my mind about career and Technology.
+3. ideas, discussions which may further expanded into a fullstack projects,   website.
+4. skills that i am currently learned and learning. It includes what i learned or practiced. ADA, COA , SE ,Operating System.
+5. Questionshat i had in  my mind either about career and Technology.
 
 
 
