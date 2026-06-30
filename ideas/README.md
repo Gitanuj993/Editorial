@@ -2,8 +2,8 @@
 
 
 1. Garbage Management System and Engineering.
-2. Shop Management, operation and cooperation.
-
+2. Shop Management, operation and cooperation., kirana 
+3. employee management system , customized for home constructions ,mazdoor
 
 
 
